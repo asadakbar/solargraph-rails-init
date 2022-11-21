@@ -4,7 +4,7 @@ A simple script that configures Solargraph to work with Rails. It acts as a shor
 
 ```bash
 gem install solargraph
-gem install solargraph-rails --pre  # if --solargraph-rails-gem is specified
+gem install solargraph-rails  # if --solargraph-rails-gem is specified
 solargraph download-core
 yard gems
 solargraph bundle
